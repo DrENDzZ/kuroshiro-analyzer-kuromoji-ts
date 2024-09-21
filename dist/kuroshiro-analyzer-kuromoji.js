@@ -11549,7 +11549,7 @@ var _createClass = function () {
     };
 }();
 
-var _kuromoji = require("@sglkc/kuromoji");
+var _kuromoji = require("@aiktb/kuromoji");
 
 var _kuromoji2 = _interopRequireDefault(_kuromoji);
 
@@ -11589,7 +11589,7 @@ var Analyzer = function () {
         this._analyzer = null;
 
         if (!dictPath) {
-            if (isNode) this._dictPath = require.resolve("@sglkc/kuromoji").replace(/src(?!.*src).*/, "dict/");else this._dictPath = "node_modules/@sglkc/kuromoji/dict/";
+            if (isNode) this._dictPath = require.resolve("@aiktb/kuromoji").replace(/src(?!.*src).*/, "dict/");else this._dictPath = "node_modules/@aiktb/kuromoji/dict/";
         } else {
             this._dictPath = dictPath;
         }
@@ -11675,5 +11675,5 @@ var Analyzer = function () {
 exports.default = Analyzer;
 module.exports = exports["default"];
 
-},{"@sglkc/kuromoji":13}]},{},[29])(29)
+},{"@aiktb/kuromoji":13}]},{},[29])(29)
 });

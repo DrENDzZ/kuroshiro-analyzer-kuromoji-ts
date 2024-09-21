@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@sglkc/kuromoji':
-    specifier: ^1.0.1
-    version: 1.0.1
+  '@aiktb/kuromoji':
+    specifier: ^1.0.2
+    version: 1.0.2
 
 devDependencies:
   babel-cli:
@@ -160,10 +160,10 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@sglkc/kuromoji@1.0.1:
-    resolution: {integrity: sha512-JVd0DAfYbCkOO7Jaw/t5Jq/UYbbTuIJ5WmkdH0cBNlHU2CNJCjBUobJeY2naZOlJurFolu14wN0vGkIjSv0sdg==}
+  /@aiktb/kuromoji@1.0.1:
+    resolution: {integrity: sha512-QnMuuT3QG91UahzzKDT72lLVyEuVpobvHSZz3uM9q+EUGk2p6tpn24GbB3LnKBmT9LLlwyJE+F0fwWuwcrZcOw==}
     dependencies:
-      async: 2.6.4
+      async: 2.0.1
       doublearray: 0.0.2
       fflate: 0.8.0
     dev: false

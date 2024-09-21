@@ -1,6 +1,6 @@
 {
-    "name": "@sglkc/kuroshiro-analyzer-kuromoji",
-    "version": "1.0.1",
+    "name": "@endzz/kuroshiro-analyzer-kuromoji",
+    "version": "1.0.0",
     "description": "Forked version of kuroshiro-analyzer-kuromoji with TypeScript support and better compatibility for browsers",
     "main": "lib/index.js",
     "module": "src/index.js",
@@ -28,18 +28,16 @@
         "hiragana",
         "katakana",
         "romaji",
-        "kana"
+        "kana",
+        "browser"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/sglkc/kuroshiro-analyzer-kuromoji-ts.git"
+        "url": "https://github.com/DrENDzZ/kuroshiro-analyzer-kuromoji-ts.git"
     },
-    "author": "sglkc",
+    "author": "endzz",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/sglkc/kuroshiro-analyzer-kuromoji-ts/issues"
-    },
-    "homepage": "https://github.com/sglkc/kuroshiro-analyzer-kuromoji-ts",
+    "homepage": "https://github.com/DrENDzZ/kuroshiro-analyzer-kuromoji-ts",
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
@@ -74,6 +72,6 @@
     },
     "types": "./src/index.d.ts",
     "dependencies": {
-        "@sglkc/kuromoji": "^1.0.1"
+        "@aiktb/kuromoji": "^1.0.2"
     }
 }
